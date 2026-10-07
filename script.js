@@ -19,7 +19,7 @@ function palindrome(str){
 		if(str[i]===' ') continue;
 		s+=str[i];
 	}
-	let i=0, j=str.length-1;
+	let i=0, j=s.length-1;
 	while(i<=j){
 		if(s[i]!=s[j]) return false;
 		i++;
